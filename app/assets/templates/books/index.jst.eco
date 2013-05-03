@@ -1,0 +1,7 @@
+<h1>Shelfari</h1>
+
+<ul>
+<% for book in @books.models: %>
+  <li><%= book.get('name') %></li>
+<% end %>
+</ul>
